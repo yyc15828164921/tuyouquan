@@ -11,4 +11,4 @@
 
 
 
-Route::get('admin/index', 'admin/');
+Route::get('admin/index', 'admin/Index/index');
