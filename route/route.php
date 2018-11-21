@@ -10,5 +10,5 @@
 // +----------------------------------------------------------------------
 
 Route::get('index/index', 'index/Index/index');
-
+Route::get('index/hello', 'index/Index/hello');
 Route::get('admin/index', 'admin/Index/index');
