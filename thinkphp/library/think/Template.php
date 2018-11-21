@@ -56,7 +56,7 @@ class Template
         'taglib_pre_load'    => '', // 需要额外加载的标签库(须指定标签库名称)，多个以逗号分隔
         'display_cache'      => false, // 模板渲染缓存
         'cache_id'           => '', // 模板缓存ID
-        'tpl_replace_string' => [],
+        'tpl_replace_string' => ['__PUBLIC__'=>'/static','__JS__' => '/static/js','__CSS__' => '/static/css','__OTHER__' => '/static/other'],
         'tpl_var_identify'   => 'array', // .语法变量识别，array|object|'', 为空时自动识别
         'default_filter'     => 'htmlentities', // 默认过滤方法 用于普通标签输出
     ];
